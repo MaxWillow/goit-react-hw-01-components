@@ -1,0 +1,51 @@
+@value primary-text-color from './Profile_variables.module.css';
+@value secondary-text-color from './Profile_variables.module.css';
+
+.profile {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.description {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name,
+.quantity {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: primary-text-color;
+}
+
+.tag,
+.location,
+.label {
+  font-size: 14px;
+  line-height: 1.6;
+  color: secondary-text-color;
+}
+
+.stats {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  background-color: #e7ecf2;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  border: 1px solid #ccc;
+}

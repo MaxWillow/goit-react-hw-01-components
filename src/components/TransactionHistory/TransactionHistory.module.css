@@ -1,0 +1,26 @@
+.transactionHistory {
+  min-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tableHeader {
+  background: #00bcd4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tableRows {
+  text-transform: capitalize;
+}
+
+.tableRows:nth-child(even) {
+  background: #ecf2f3;
+}
+
+.tableColumns {
+  width: 33.3333%;
+  height: 50px;
+  border: 1px solid #eaeaea;
+}
