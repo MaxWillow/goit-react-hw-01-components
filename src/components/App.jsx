@@ -15,11 +15,8 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 const App = () => (
   <>
     <Profile user={user} />
-    <hr />
     <Statistics stats={statisticalData} />
-    <hr />
     <FriendList friends={friends} />
-    <hr />
     <TransactionHistory items={transactions} />
   </>
 );
